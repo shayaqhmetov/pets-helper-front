@@ -9,13 +9,13 @@ body{
 }
 li {
     list-style-type: none;
-    font-size: 29px;
-    margin-left: 43px;
+    font-size: 23px;
+    margin-left: 58px;
 }
 ul{
     display: flex;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 .logo img{
-    width: 132px;
+    width: 124px;
 }
