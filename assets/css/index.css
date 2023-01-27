@@ -1,21 +1,19 @@
 body{
     margin: 0;
 }
-.red {
-    background: red; 
-    height: 200px;   
-}
-
-.green{
-    background: rgb(10, 101, 9); 
-    height: 200px;
-}
-
-.row{
-    background: 100px black;
-}
-
 .container{
     border: 5px solid yellow;
     margin: 0px 40px auto;
+}
+li {
+    list-style-type: none;
+    font-size: 37px;
+    margin-left: 35px;
+}
+ul{
+    display: flex;
+    margin-top: 7px;
+}
+.logo img{
+    width: 79%;
 }
