@@ -3,7 +3,9 @@
 }
 body{
     margin: 0;
+    
 }
+
 .container{
     border: 5px solid yellow;
     margin: 0px auto;
@@ -25,6 +27,9 @@ ul{
 .link{
     text-decoration: none;
     color: black;
+    font-family:'gotham pro';
+    font-style:normal;
+    font-weight:400;
 }
 .link:hover {
     color: rgb(255, 0, 0);
