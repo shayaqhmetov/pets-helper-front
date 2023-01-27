@@ -4,7 +4,7 @@ body{
 .container{
     border: 5px solid yellow;
     margin: 0px auto;
-    max-width: 1920px;
+    max-width: 1400px;
     padding: 0px 40px;
 }
 li {
