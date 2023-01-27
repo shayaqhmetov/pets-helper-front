@@ -3,8 +3,9 @@ body{
 }
 .container{
     border: 5px solid yellow;
-    margin: 0px 40px auto;
+    margin: 0px auto;
     max-width: 1920px;
+    padding: 0px 40px;
 }
 li {
     list-style-type: none;
