@@ -3,16 +3,18 @@ body{
 }
 .red {
     background: red; 
-    height: 200px;
-    
+    height: 200px;   
 }
+
 .green{
     background: rgb(10, 101, 9); 
     height: 200px;
 }
+
 .row{
     background: 100px black;
 }
-.conteiner{
+
+.container{
     border: 5px solid yellow;
 }
