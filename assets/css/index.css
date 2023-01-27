@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 .red {
     background: red; 
     height: 200px;
@@ -8,5 +11,8 @@
     height: 200px;
 }
 .row{
-    background: 1px black;
+    background: 100px black;
+}
+.conteiner{
+    border: 5px solid yellow;
 }
