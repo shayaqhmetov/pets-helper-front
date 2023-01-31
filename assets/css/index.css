@@ -14,12 +14,12 @@ body{
 }
 li {
     list-style-type: none;
-    font-size: 23px;
+    font-size: 21px;
     margin-left: 58px;
 }
 ul{
     display: flex;
-    margin-top: 8px;
+    margin-top: 10px;
 }
 .logo img{
     width: 124px;
