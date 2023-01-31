@@ -1,22 +1,17 @@
-@font-face {
-    font-family: gotham pro;
-    src: url('GothaProBla.otf');
-}
-
 body {
     margin: 0;
 }
 
 .container {
-    border: 5px solid yellow;
+    border: 1px solid yellow;
     margin: 0px auto;
     max-width: 1400px;
-    padding: 0px 40px;
+    padding: 0;
 }
 
 li {
     list-style-type: none;
-    margin-left: 58px;
+    margin-left: 50px;
     font-family: 'Gotham Pro';
     font-style: normal;
     font-weight: 400;
@@ -39,6 +34,64 @@ a.link {
 
 .link:hover {
     color: rgb(255, 0, 0);
-    transition-duration: 0.5s;
+    transition-duration: 0.3s;
     cursor: pointer;
+}
+
+h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    margin-bottom: 0px;
+    margin-top: 84px;
+}
+
+.description {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btn {
+    width: 244px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 17px;
+    background: #efa969;
+    color: white;
+    border-color: #efa969;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    border: 1px solid #efa969;
+    color: #efa969;
+    background: white;
+    transition-duration: 0.5s;
+}
+
+.cat1 {
+    position: relative;
+}
+
+.cat1 img {
+    width: 416px;
+    left: -116px;
+    top: 211px;
+    position: absolute;
+}
+
+.dog1 {
+    position: relative;
+}
+
+.dog1 img {
+    position: absolute;
+    width: 590px;
+    left: -187px;
+    top: 6px;
 }
