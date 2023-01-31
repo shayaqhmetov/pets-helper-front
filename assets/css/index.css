@@ -1,36 +1,42 @@
-*{
-    font-family: 'Gotham Pro';
-}
-body{
-    margin: 0;
-    
+@font-face {
+    font-family: gotham pro;
+    src: url('GothaProBla.otf');
 }
 
-.container{
+body {
+    margin: 0;
+}
+
+.container {
     border: 5px solid yellow;
     margin: 0px auto;
     max-width: 1400px;
     padding: 0px 40px;
 }
+
 li {
     list-style-type: none;
-    font-size: 21px;
     margin-left: 58px;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
 }
-ul{
+
+ul {
     display: flex;
-    margin-top: 10px;
+    margin-top: 8px;
 }
-.logo img{
+
+.logo img {
     width: 124px;
 }
-.link{
+
+a.link {
     text-decoration: none;
     color: black;
-    font-family:'gotham pro';
-    font-style:normal;
-    font-weight:400;
 }
+
 .link:hover {
     color: rgb(255, 0, 0);
     transition-duration: 0.5s;
