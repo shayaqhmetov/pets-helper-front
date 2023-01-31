@@ -78,24 +78,13 @@ h1 {
     color: white;
     border-color: #efa969;
     border-radius: 3px;
-    text-align: center;
-    padding-top: 12px;
-    cursor: pointer;
 }
 
 .btn:hover {
-    background: #e28d3d;
-    color: white;
-}
-
-.conteiner-btn {
-    display: flex;
-}
-
-.btn-primary {
     border: 1px solid #efa969;
     color: #efa969;
     background: white;
+    transition-duration: 0.5s;
 }
 
 .cat1 {
