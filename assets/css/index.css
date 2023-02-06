@@ -1,97 +1,141 @@
-body {
-    margin: 0;
-}
+ @font-face {
+     font-family: 'regular';
+     src: url(../fonts/gothampro.ttf);
+ }
 
-.container {
-    border: 1px solid yellow;
-    margin: 0px auto;
-    max-width: 1400px;
-    padding: 0;
-}
+ @font-face {
+     font-family: light;
+     src: url(../fonts/gothampro_light.ttf);
+ }
 
-li {
-    list-style-type: none;
-    margin-left: 50px;
-    font-family: 'Gotham Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-}
+ @font-face {
+     font-family: medium;
+     src: url(../fonts/gothampro_medium.ttf);
+ }
 
-ul {
-    display: flex;
-    margin-top: 8px;
-}
+ body {
+     margin: 0;
+ }
 
-.logo img {
-    width: 124px;
-}
+ .container {
+     border: 1px solid yellow;
+     margin: 0px auto;
+     max-width: 1400px;
+     padding: 0;
+ }
 
-a.link {
-    text-decoration: none;
-    color: black;
-}
+ div {
+     border: 1px solid green;
+ }
 
-.link:hover {
-    color: rgb(255, 0, 0);
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
+ li {
+     list-style-type: none;
+     margin-left: 50px;
+     font-family: 'regular';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 21px;
+ }
 
-h1 {
-    font-family: 'Gotham Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 49px;
-    margin-bottom: 0px;
-    margin-top: 84px;
-}
+ ul {
+     display: flex;
+     margin-top: 8px;
+ }
 
-.description {
-    font-family: 'Gotham Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-}
+ .logo img {
+     width: 124px;
+ }
 
-.btn {
-    width: 244px;
-    font-family: 'Gotham Pro';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    padding: 17px;
-    background: #efa969;
-    color: white;
-    border-color: #efa969;
-    border-radius: 3px;
-}
+ a.link {
+     text-decoration: none;
+     color: black;
+ }
 
-.btn:hover {
-    border: 1px solid #efa969;
-    color: #efa969;
-    background: white;
-    transition-duration: 0.5s;
-}
+ .link:hover {
+     color: rgb(255, 0, 0);
+     transition-duration: 0.3s;
+     cursor: pointer;
+ }
 
-.cat1 {
-    position: relative;
-}
+ h1 {
+     font-family: 'Gotham Pro';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 49px;
+     margin-bottom: 0px;
+     margin-top: 84px;
+ }
 
-.cat1 img {
-    width: 416px;
-    left: -116px;
-    top: 211px;
-    position: absolute;
-}
+ .description {
+     font-family: light;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 20px;
+ }
 
-.dog1 {
-    position: relative;
-}
+ .btn {
+     width: 244px;
+     font-family: Medium;
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     padding: 17px;
+     background: #efa969;
+     color: white;
+     border-color: #efa969;
+     border-radius: 3px;
+ }
 
-.dog1 img {
-    position: absolute;
-    width: 590px;
-    left: -187px;
-    top: 6px;
-}
+ .btn:hover {
+     border: 1px solid #efa969;
+     color: #efa969;
+     background: white;
+     transition-duration: 0.5s;
+ }
+
+ .cat1 {
+     position: relative;
+ }
+
+ .cat1 img {
+     width: 416px;
+     left: -116px;
+     top: 211px;
+     position: absolute;
+ }
+
+ .dog1 {
+     position: relative;
+ }
+
+ .dog1 img {
+     position: absolute;
+     width: 590px;
+     left: -187px;
+     top: 6px;
+ }
+
+ .white {
+     width: 100%;
+     background-color: #ffff;
+     z-index: 2;
+     position: relative;
+ }
+
+ h3 {
+     font-family: medium;
+     Font-size: 19px;
+     margin: 0;
+ }
+
+ .shield-text {
+     padding-left: 19px;
+     font-family: 'regular';
+     Font-size: 14px;
+     color: #707070;
+     margin-top: 0;
+ }
+
+ .animals {
+     margin-bottom: 190px;
+ }
