@@ -97,24 +97,28 @@ li {
     font-size: 21px;
 }
 
-ul {
-    display: flex;
-    margin-top: 8px;
+body {
+    margin: 0;
 }
 
-.logo img {
-    width: 124px;
+.container {
+    border: 1px solid yellow;
+    margin: 0px auto;
+    max-width: 1400px;
+    padding: 0;
 }
 
-a.link {
-    text-decoration: none;
-    color: black;
+div {
+    border: 1px solid green;
 }
 
-.link:hover {
-    color: rgb(255, 0, 0);
-    transition-duration: 0.3s;
-    cursor: pointer;
+li {
+    list-style-type: none;
+    margin-left: 50px;
+    font-family: 'regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
 }
 
 h1 {
@@ -162,19 +166,12 @@ h1 {
     background: white;
 }
 
-.cat1 {
-    position: relative;
-}
 
-.cat1 img {
-    width: 416px;
-    left: -116px;
-    top: 211px;
-    position: absolute;
-}
-
-.dog1 {
-    position: relative;
+.description {
+    font-family: light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .dog1 img {
