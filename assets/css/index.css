@@ -1,21 +1,54 @@
-body{
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/gothampro.ttf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(../fonts/gothampro_light.ttf);
+}
+
+@font-face {
+    font-family: medium;
+    src: url(../fonts/gothampro_medium.ttf);
+}
+
+body {
     margin: 0;
 }
-.red {
-    background: red; 
-    height: 200px;   
+
+.container {
+    border: 1px solid rgb(255, 0, 0);
+    margin: 0px auto;
+    max-width: 1400px;
+    padding: 0;
 }
 
-.green{
-    background: rgb(10, 101, 9); 
-    height: 200px;
+li {
+    list-style-type: none;
+    margin-left: 58px;
+    font-family: 'regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
 }
 
-.row{
-    background: 100px black;
+ul {
+    display: flex;
+    margin-top: 8px;
 }
 
-.container{
-    border: 5px solid yellow;
-    margin: 0px 40px auto;
+.logo img {
+    width: 124px;
+}
+
+a.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: rgb(255, 0, 0);
+    transition-duration: 0.3s;
+    cursor: pointer;
 }
