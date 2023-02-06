@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'regular';
+    src: url(../fonts/gothampro.ttf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(../fonts/gothampro_light.ttf);
+}
+
+@font-face {
+    font-family: medium;
+    src: url(../fonts/gothampro_medium.ttf);
+}
+
 body {
     margin: 0;
 }
@@ -12,7 +27,7 @@ body {
 li {
     list-style-type: none;
     margin-left: 58px;
-    font-family: 'Conv_gothampro_italic';
+    font-family: 'regular';
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
