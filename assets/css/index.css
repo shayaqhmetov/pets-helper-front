@@ -137,3 +137,67 @@
  .animals {
      margin-bottom: 190px;
  }
+
+ .Next {
+     display: flex;
+     margin-top: 42px;
+ }
+
+ .Next img {
+     height: 25px;
+     margin-top: 16px;
+ }
+
+ h2 {
+     font-size: 43px;
+     font-family: Medium;
+     margin-bottom: 0;
+ }
+
+ .show {
+     margin-left: 51px;
+     Font-size: 17px;
+     font-family: 'regular';
+ }
+
+ .special {
+     padding-left: 0;
+ }
+
+ .special-block {
+     padding-top: 0;
+ }
+
+ .next-left img {
+     position: absolute;
+     top: 581px;
+     left: -52px;
+ }
+
+ .next-right img {
+     position: absolute;
+     top: 557px;
+     left: 1401px;
+ }
+
+ .human img {
+     height: 321px;
+ }
+
+ .human {
+     padding: 0;
+ }
+
+ h4 {
+     margin: 0;
+     font-family: Medium;
+     Font-size: 21px;
+ }
+
+ .name-human {
+     margin-top: 5px;
+ }
+
+ .btn-human {
+     width: 315px;
+ }
