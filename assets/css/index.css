@@ -70,17 +70,23 @@ h1 {
 }
 
 .btn {
-    height: 47px;
-    width: 229px;
+    height: 41px;
+    width: 228px;
     font-family: Medium;
     font-size: 13px;
     background: #efa969;
     color: white;
     border-color: #efa969;
     border-radius: 3px;
+    text-align: center;
+    padding-top: 12px;
 }
 
-.btn:hover {
+.conteiner-btn {
+    display: flex;
+}
+
+.btn-primary {
     border: 1px solid #efa969;
     color: #efa969;
     background: white;
