@@ -1,4 +1,4 @@
-@font-face {
+<<<<<<< HEAD @font-face {
     font-family: 'regular';
     src: url(../fonts/gothampro.ttf);
 }
@@ -33,24 +33,43 @@ li {
     font-size: 21px;
 }
 
-ul {
-    display: flex;
-    margin-top: 8px;
+=======@font-face {
+    font-family: 'regular';
+    src: url(../fonts/gothampro.ttf);
 }
 
-.logo img {
-    width: 124px;
+@font-face {
+    font-family: light;
+    src: url(../fonts/gothampro_light.ttf);
 }
 
-a.link {
-    text-decoration: none;
-    color: black;
+@font-face {
+    font-family: medium;
+    src: url(../fonts/gothampro_medium.ttf);
 }
 
-.link:hover {
-    color: rgb(255, 0, 0);
-    transition-duration: 0.3s;
-    cursor: pointer;
+>>>>>>>0176ce4 (сделал шрифт и блок shield) body {
+    margin: 0;
+}
+
+.container {
+    border: 1px solid yellow;
+    margin: 0px auto;
+    max-width: 1400px;
+    padding: 0;
+}
+
+div {
+    border: 1px solid green;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 50px;
+    font-family: 'regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
 }
 
 h1 {
@@ -74,6 +93,41 @@ h1 {
     width: 228px;
     font-family: Medium;
     font-size: 13px;
+    background: #efa969;
+    color: white;
+    border-color: #efa969;
+    border-radius: 3px;
+}
+
+.link:hover {
+    color: rgb(255, 0, 0);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+h1 {
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 49px;
+    margin-bottom: 0px;
+    margin-top: 84px;
+}
+
+.description {
+    font-family: light;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.btn {
+    width: 244px;
+    font-family: Medium;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 17px;
     background: #efa969;
     color: white;
     border-color: #efa969;
@@ -107,4 +161,29 @@ h1 {
     width: 590px;
     left: -187px;
     top: 6px;
+}
+
+.white {
+    width: 100%;
+    background-color: #ffff;
+    z-index: 2;
+    position: relative;
+}
+
+h3 {
+    font-family: medium;
+    Font-size: 19px;
+    margin: 0;
+}
+
+.shield-text {
+    padding-left: 19px;
+    font-family: 'regular';
+    Font-size: 14px;
+    color: #707070;
+    margin-top: 0;
+}
+
+.animals {
+    margin-bottom: 190px;
 }
