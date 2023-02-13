@@ -232,3 +232,95 @@ h4 {
     padding-top: 10px;
     margin-right: 3px;
 }
+
+.blue {
+    height: 198px;
+    background: #BFE4F4;
+    border-radius: 10px;
+    width: 33%;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.orange {
+    background: #F3C37C;
+    border-radius: 10px;
+    height: 198px;
+    width: 33%;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.grean {
+    background: #ABFFC8;
+    border-radius: 10px;
+    height: 198px;
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+}
+
+.podval {
+    display: flex;
+}
+
+.prace {
+    Font-family: Medium;
+    Font-size: 12px;
+}
+
+h5 {
+    Font-family: Medium;
+    Font-size: 20px;
+    margin-bottom: 34px;
+    margin-top: -7px;
+}
+
+.account {
+    Font-family: 'Light';
+    Font-size: 14px;
+}
+
+
+.dog-2 img {
+    position: absolute;
+    width: 209px;
+    top: 0px;
+    height: 209px;
+    right: -2px;
+}
+
+.dog-3 img {
+    position: absolute;
+    width: 139px;
+    right: 0px;
+    top: 3px;
+}
+
+.cat-2 img {
+    position: absolute;
+    width: 128px;
+    top: 27px;
+    right: 0px;
+}
+
+.red {
+    background: #EFCECE;
+    width: 33%;
+    height: 198px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.dog-4 img {
+    position: absolute;
+    width: 195px;
+    top: 17px;
+    right: 0px;
+}
