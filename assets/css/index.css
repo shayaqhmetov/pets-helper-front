@@ -17,7 +17,7 @@ body {
     margin: 0;
 }
 
-<<<<<<< HEAD .container {
+.container {
     border: 2px solid rgb(255, 0, 0);
     margin: 0px auto;
     max-width: 1400px;
@@ -84,7 +84,7 @@ h1 {
     cursor: pointer;
 }
 
-=======.container {
+.container {
     border: 1px solid rgb(255, 0, 0);
     margin: 0px auto;
     max-width: 1400px;
@@ -154,7 +154,7 @@ h1 {
     cursor: pointer;
 }
 
->>>>>>>11eeee5 (сделал картинки больше изменил кнопки и поставил знаки пунктуации) .btn:hover {
+.btn:hover {
     background: #e28d3d;
     color: white;
 }
@@ -244,12 +244,6 @@ h2 {
 
 .special-block {
     padding-top: 0;
-}
-
-.next-left img {
-    position: absolute;
-    top: 581px;
-    left: -52px;
 }
 
 .next-right img {
