@@ -111,6 +111,7 @@ h1 {
     left: -116px;
     top: 211px;
     position: absolute;
+    z-index: 2;
 }
 
 .dog1 {
@@ -122,6 +123,7 @@ h1 {
     width: 590px;
     left: -187px;
     top: 6px;
+    z-index: 2;
 }
 
 .white {
@@ -339,4 +341,38 @@ h5 {
     width: 134px;
     top: 47px;
     right: -1px;
+}
+
+.orance-ellipse {
+    position: relative;
+}
+
+.orance-ellipse img {
+    position: absolute;
+    width: 362px;
+    right: -17px;
+    top: -98px;
+}
+
+.orance-ellipse-2 {
+    position: relative;
+}
+
+.orance-ellipse-2 img {
+    position: absolute;
+    left: -118px;
+    width: 673px;
+    top: 339px;
+    z-index: 1;
+}
+
+.yellow-ellipse {
+    position: relative;
+}
+
+.yellow-ellipse img {
+    position: absolute;
+    left: 244px;
+    width: 186px;
+    top: 192px;
 }
