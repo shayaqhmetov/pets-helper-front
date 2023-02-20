@@ -18,73 +18,6 @@ body {
 }
 
 .container {
-    border: 2px solid rgb(255, 0, 0);
-    margin: 0px auto;
-    max-width: 1400px;
-    padding: 0;
-}
-
-ul {
-    display: flex;
-    margin: 0;
-}
-
-li {
-    list-style-type: none;
-    margin-left: 58px;
-    font-family: 'regular';
-    font-weight: 400;
-    font-size: 21px;
-    padding-top: 5px;
-}
-
-.container {
-    border: 1px solid yellow;
-    margin: 0px auto;
-    max-width: 1400px;
-    padding: 0;
-}
-
-.conteiner-btn {
-    display: flex;
-}
-
-h1 {
-    font-family: light;
-    font-size: 49px;
-    margin-bottom: 0px;
-    margin-top: 84px;
-}
-
-.description {
-    font-family: light;
-    font-size: 20px;
-}
-
-.btn {
-    width: 236px;
-    font-size: 16px;
-    padding: 17px;
-    background: #efa969;
-    color: white;
-    border-color: #efa969;
-    border-radius: 3px;
-    text-align: center;
-    height: 54px;
-}
-
-.link {
-    color: black;
-    text-decoration: none;
-}
-
-.link:hover {
-    color: rgb(255, 0, 0);
-    transition-duration: 0.3s;
-    cursor: pointer;
-}
-
-.container {
     border: 1px solid rgb(255, 0, 0);
     margin: 0px auto;
     max-width: 1400px;
@@ -246,6 +179,12 @@ h2 {
     padding-top: 0;
 }
 
+.next-left img {
+    position: absolute;
+    top: 581px;
+    left: -52px;
+}
+
 .next-right img {
     position: absolute;
     top: 557px;
@@ -286,11 +225,118 @@ h4 {
     height: 8px;
     display: inline-block;
     margin-left: 8px;
-
 }
 
 .slade {
     text-align: center;
     padding-top: 10px;
     margin-right: 3px;
+}
+
+.blue {
+    height: 198px;
+    background: #BFE4F4;
+    border-radius: 10px;
+    width: 33%;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.orange {
+    background: #F3C37C;
+    border-radius: 10px;
+    height: 198px;
+    width: 33%;
+    margin-right: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.grean {
+    background: #ABFFC8;
+    border-radius: 10px;
+    height: 198px;
+    width: 33%;
+    position: relative;
+    overflow: hidden;
+}
+
+.podval {
+    display: flex;
+}
+
+.prace {
+    Font-family: Medium;
+    Font-size: 12px;
+}
+
+h5 {
+    Font-family: Medium;
+    Font-size: 20px;
+    margin-bottom: 34px;
+    margin-top: -7px;
+}
+
+.account {
+    Font-family: 'Light';
+    Font-size: 14px;
+}
+
+
+.dog-2 img {
+    position: absolute;
+    width: 209px;
+    top: 0px;
+    height: 209px;
+    right: -2px;
+    z-index: 1;
+}
+
+.dog-3 img {
+    position: absolute;
+    width: 139px;
+    right: 0px;
+    top: 3px;
+    z-index: 1;
+}
+
+.cat-2 img {
+    position: absolute;
+    width: 128px;
+    top: 27px;
+    right: 0px;
+    z-index: 1;
+}
+
+.red {
+    background: #EFCECE;
+    width: 33%;
+    height: 198px;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.dog-4 img {
+    position: absolute;
+    width: 195px;
+    top: 17px;
+    right: 0px;
+    z-index: 1;
+}
+
+.ellipse {
+    position: relative;
+}
+
+.ellipse img {
+    position: absolute;
+    position: absolute;
+    width: 134px;
+    top: 47px;
+    right: -1px;
 }
