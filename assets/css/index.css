@@ -30,16 +30,16 @@ div {
 
 li {
     list-style-type: none;
-    margin-left: 58px;
+    margin-left: 35px;
     font-family: 'regular';
     font-style: normal;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 16px;
 }
 
 ul {
     display: flex;
-    margin-top: 8px;
+    margin-top: 13px;
 }
 
 .logo img {
@@ -61,16 +61,16 @@ h1 {
     font-family: medium;
     font-style: normal;
     font-weight: 400;
-    font-size: 49px;
+    font-size: 45px;
     margin-bottom: 0px;
-    margin-top: 84px;
+    margin-top: 61px;
 }
 
 .description {
     font-family: light;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .btn {
@@ -108,8 +108,8 @@ h1 {
 
 .cat1 img {
     width: 416px;
-    left: -116px;
-    top: 211px;
+    left: -204px;
+    top: 174px;
     position: absolute;
     z-index: 2;
 }
@@ -120,9 +120,9 @@ h1 {
 
 .dog1 img {
     position: absolute;
-    width: 590px;
-    left: -187px;
-    top: 6px;
+    width: 569px;
+    left: -276px;
+    top: -35px;
     z-index: 2;
 }
 
@@ -337,7 +337,6 @@ h5 {
 
 .ellipse img {
     position: absolute;
-    position: absolute;
     width: 134px;
     top: 47px;
     right: -1px;
@@ -349,7 +348,7 @@ h5 {
 
 .orance-ellipse img {
     position: absolute;
-    width: 362px;
+    width: 428px;
     right: -17px;
     top: -98px;
 }
@@ -360,9 +359,9 @@ h5 {
 
 .orance-ellipse-2 img {
     position: absolute;
-    left: -118px;
-    width: 673px;
-    top: 339px;
+    left: -208px;
+    width: 713px;
+    top: 309px;
     z-index: 1;
 }
 
@@ -372,7 +371,7 @@ h5 {
 
 .yellow-ellipse img {
     position: absolute;
-    left: 244px;
+    left: 165px;
     width: 186px;
-    top: 192px;
+    top: 157px;
 }
