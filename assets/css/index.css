@@ -290,6 +290,7 @@ h5 {
     top: 0px;
     height: 209px;
     right: -2px;
+    z-index: 1;
 }
 
 .dog-3 img {
@@ -297,6 +298,7 @@ h5 {
     width: 139px;
     right: 0px;
     top: 3px;
+    z-index: 1;
 }
 
 .cat-2 img {
@@ -304,6 +306,7 @@ h5 {
     width: 128px;
     top: 27px;
     right: 0px;
+    z-index: 1;
 }
 
 .red {
@@ -323,4 +326,17 @@ h5 {
     width: 195px;
     top: 17px;
     right: 0px;
+    z-index: 1;
+}
+
+.ellipse {
+    position: relative;
+}
+
+.ellipse img {
+    position: absolute;
+    position: absolute;
+    width: 134px;
+    top: 47px;
+    right: -1px;
 }
