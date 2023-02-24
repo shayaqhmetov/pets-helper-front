@@ -18,19 +18,15 @@ body {
 }
 
 .container {
-    border: 1px solid rgb(255, 0, 0);
     margin: 0px auto;
-    max-width: 1400px;
+    max-width: 1800px;
     padding: 0;
-}
-
-div {
-    border: 1px solid green;
+    padding-left: 40px;
 }
 
 li {
     list-style-type: none;
-    margin-left: 35px;
+    margin-left: 38px;
     font-family: 'regular';
     font-style: normal;
     font-weight: 400;
@@ -39,11 +35,12 @@ li {
 
 ul {
     display: flex;
-    margin-top: 13px;
+    margin-top: 7px;
+    padding-left: 0px;
 }
 
 .logo img {
-    width: 124px;
+    width: 90px;
 }
 
 a.link {
@@ -61,7 +58,7 @@ h1 {
     font-family: medium;
     font-style: normal;
     font-weight: 400;
-    font-size: 45px;
+    font-size: 49px;
     margin-bottom: 0px;
     margin-top: 61px;
 }
@@ -131,6 +128,7 @@ h1 {
     background-color: #ffff;
     z-index: 2;
     position: relative;
+    padding-right: 65px;
 }
 
 h3 {
@@ -183,14 +181,14 @@ h2 {
 
 .next-left img {
     position: absolute;
-    top: 581px;
-    left: -52px;
+    top: 551px;
+    left: -36px;
 }
 
 .next-right img {
     position: absolute;
-    top: 557px;
-    left: 1401px;
+    top: 551px;
+    left: 1417px;
 }
 
 .human img {
@@ -243,6 +241,7 @@ h4 {
     margin-right: 10px;
     position: relative;
     overflow: hidden;
+    padding-left: 28px;
 }
 
 .orange {
@@ -253,6 +252,7 @@ h4 {
     margin-right: 10px;
     position: relative;
     overflow: hidden;
+    padding-left: 28px;
 }
 
 .grean {
@@ -262,6 +262,7 @@ h4 {
     width: 33%;
     position: relative;
     overflow: hidden;
+    padding-left: 28px;
 }
 
 .podval {
@@ -278,6 +279,11 @@ h5 {
     Font-size: 20px;
     margin-bottom: 34px;
     margin-top: -7px;
+}
+
+.h5-cat {
+    font-size: 22px;
+    margin-bottom: 0px;
 }
 
 .account {
@@ -319,6 +325,7 @@ h5 {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    padding-left: 28px;
 }
 
 
@@ -338,7 +345,7 @@ h5 {
 .ellipse img {
     position: absolute;
     width: 134px;
-    top: 47px;
+    top: 53px;
     right: -1px;
 }
 
@@ -348,9 +355,9 @@ h5 {
 
 .orance-ellipse img {
     position: absolute;
-    width: 428px;
+    width: 515px;
     right: -17px;
-    top: -98px;
+    top: -86px;
 }
 
 .orance-ellipse-2 {
